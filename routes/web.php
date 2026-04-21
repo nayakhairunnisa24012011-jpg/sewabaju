@@ -37,9 +37,9 @@ Route::get('/listbarang/{id}/{nama}', [ListBarangController::class, 'tampilkan']
 
 use App\Http\Controllers\ListEventController;
 
-Route::get('/event', [ListEventController::class, 'index']);
 
-Route::get('/dashboard-admin', [DashboardAdminController::class, 'index']);
+use App\Http\Controllers\ProductController;
+Route::get('/product', [ProductController::class, 'index']);
 
 use App\Http\Controllers\PengunjungController;
 
