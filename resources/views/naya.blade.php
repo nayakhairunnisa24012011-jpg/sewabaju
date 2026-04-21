@@ -6,5 +6,5 @@
 <body class="bg-gray-100">
 
 <h1 class="text-3xl text-center text-blue-600 font-bold mt-10">
-    Hello Tailwind
+    Hello Tailwind.....
 </h1>
